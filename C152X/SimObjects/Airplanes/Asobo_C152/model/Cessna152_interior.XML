@@ -408,17 +408,16 @@
 		<UseTemplate Name="ASOBO_LIGHTING_Knob_Glareshield_Template">
 			<NODE_ID>LIGHTING_Knob_Panel</NODE_ID>
 			<ANIM_NAME>LIGHTING_Knob_Panel</ANIM_NAME>
-			<KNOB_TURN_SPEED>1.5</KNOB_TURN_SPEED>						
+			<TT_DESCRIPTION_ID>@TT_Package.LIGHTING_KNOB_GLARESHIELD_ACTION</TT_DESCRIPTION_ID>
+			<TOOLTIP_TITLE>@TT_Package.LIGHTING_KNOB_GLARESHIELD_TITLE</TOOLTIP_TITLENODE_ID>LIGHTING_Knob_Panel>
 		</UseTemplate>
 		
-		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Cabin_Template">		
+		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Cabin_Template">
+			<TT_DESCRIPTION_ID>@TT_Package.LIGHTING_SWITCH_CABIN_ACTION_SET</TT_DESCRIPTION_ID>
+			<TOOLTIP_TITLE>@TT_Package.LIGHTING_SWITCH_CABIN_TITLE</TOOLTIP_TITLE>
 		</UseTemplate>		
-		
 		<UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">		
-			<!-- This dims the red roof light, no change to panel-->
-			<POTENTIOMETER>5</POTENTIOMETER>					
 		</UseTemplate>			
-		
 		<UseTemplate Name="ASOBO_LIGHTING_Glareshield_Emissive_Template">
 			<NODE_ID>LIGHTING_Panel_Emisive</NODE_ID>				
 		</UseTemplate>		
