@@ -37,6 +37,8 @@
 		<UseTemplate Name="ASOBO_DEICE_Lever_Engine_Template">
 			<DRAG_AXIS_SCALE>400</DRAG_AXIS_SCALE>
 			<USE_TRAJECTORY_DRAG_MODE>True</USE_TRAJECTORY_DRAG_MODE>
+			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
+			<ANIM_NAME>DEICE_Lever_Engine</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_DEICE_Switch_Pitot_Template">
 		</UseTemplate>
